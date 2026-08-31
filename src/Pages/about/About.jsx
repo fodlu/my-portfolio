@@ -32,7 +32,7 @@ function About() {
           <ScoreBoard />
         </div>
         <div className="hero">
-          <img src="/hero.jpg" alt="hero image" />
+          <img src="/images/hero-about.jpg" alt="hero image" />
         </div>
       </section>
 

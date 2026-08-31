@@ -3,7 +3,6 @@ import Goto from '../../components/goto/Goto';
 import '../../index.css';
 import './home.css';
 import TechStack from '../../components/TechStack';
-import ScoreBoard from '../../components/ScoreBoard';
 import { ArrowRight, Download, File, LucidePhone, PaperBag, Phone, PhoneCall } from 'lucide-react';
 
 export default function Home() {
@@ -30,7 +29,7 @@ export default function Home() {
         </section>
 
         <section className="hero">
-          <img src="/frontend-hero.jpg" alt="hero image" />
+          <img src="/images/Hero-main.jpg" alt="hero image" />
         </section>
       </div>
 
@@ -47,7 +46,7 @@ export default function Home() {
             Read More About Me <ArrowRight />
           </Link>
         </div>
-        <img src="/frontend-hero.jpg" alt="hero image" />
+        {/* <img src="/images/hero-about.jpg" alt="hero image" /> */}
       </section>
 
       <section className="final">
