@@ -1,0 +1,136 @@
+.contact-page {
+  padding: 2rem;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.contact-form {
+  p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--oil-black);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+
+      label {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color: var(--oil-black);
+        margin-bottom: 0.5rem;
+      }
+
+      input,
+      textarea {
+        border: none;
+        padding: 0.25rem;
+        background-color: transparent;
+        border-bottom: 2px solid var(--oil-black);
+        font-size: 1.2rem;
+        box-shadow: 0px 0px 1px var(--oil-black);
+        padding: 1rem;
+        border-radius: 10px;
+      }
+
+      input {
+        height: 70px;
+        border-radius: 20px;
+        padding: 0 1rem;
+        font-family: inherit;
+        background: transparent;
+
+        &:active,
+        &:focus {
+          outline: none;
+          background: transparent;
+        }
+      }
+    }
+
+    button {
+      height: 60px;
+      border: none;
+      background-color: var(--oil-black);
+      color: var(--digital-lilac);
+      font-size: 1.2rem;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+
+      &:active {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+.contact-info {
+  background: var(--oil-black);
+  color: var(--digital-lilac);
+  padding: 30px;
+  border-radius: 12px;
+  height: fit-content;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  a {
+    color: var(--digital-lilac);
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 1rem;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    color: var(--digital-lilac);
+
+    strong,
+    span {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.response-time {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}

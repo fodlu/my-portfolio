@@ -1,0 +1,105 @@
+.pricing{
+    grid-column: 1 / -1;
+    padding: 1rem 2rem 2rem;
+
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+
+        p{
+            font-size: 1.5rem;
+        }
+
+        span{
+            color: yellowgreen;
+        }
+    }
+
+    .prices{
+        display: flex;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .priceTag{
+            padding: 1rem 2rem;
+            border-radius: 15px;
+            background-color: var(--Neutral-0);
+
+            .priceHead{
+                background-color: var(--Neutral-900);
+                padding: 1rem;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                margin-bottom: 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+
+                p{
+                    font-size: 1rem;
+                    color: var(--Red-400);
+                    text-transform: capitalize;
+                    span{
+                        display: block;
+                        margin-top: .5rem;
+                        color: var(--Neutral-200);
+                        font-size: 1.75rem;
+                        font-weight: 700;
+                    }
+                }
+
+                &>span{
+                    border: 1px solid;
+                    background-color: var(--Red-400);
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    color: var(--Neutral-900);
+                    font-weight: 700;
+                    transform: rotate(-45deg);
+
+                }
+            }
+
+            &:nth-child(2) {
+                background-color: var(--Neutral-800);
+
+                ul{
+                    li{
+                        color: var(--Neutral-0);
+                    }
+                }
+                .priceHead{
+                    background-color: var(--Neutral-0);
+
+                    p{
+                        color: var(--Neutral-800);
+
+                        span{
+                            color: var(--Neutral-900);
+                        }
+                    }
+                }
+            }
+
+            ul{
+                margin-left: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                font-size: 1.2rem;
+
+                li{
+                    list-style-image: url('/public/tick.png');
+                    color: var(--Neutral-900);
+                }
+            }
+        }
+    }
+}
