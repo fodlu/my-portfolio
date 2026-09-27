@@ -6,7 +6,7 @@ export default function ProjectCard({ item }) {
       <img src={image} alt={title} />
       <div className="project-content">
         <h3>{title}</h3>
-        <p>{description}</p>
+        {Array.isArray(description) ? description.map((d, idx) => <p key={idx}>{d}</p>) : <p>{description}</p>}
         <div className="tech-stack">
           {tech.map((t) => (
             <span key={t}>{t}</span>

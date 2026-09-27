@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './comp.css';
 
@@ -7,10 +6,10 @@ const Footer = () => {
     <footer>
       <p>&copy; 2026 Fadilulahi Opeyemi Musediq</p>
 
-      <Link to="#" target="_blank">
+      <Link to="www.linkedin.com/in/fadilulahi-musediq-a8ab21326" target="_blank">
         LinkedIn
       </Link>
-      <Link to="#" target="_blank">
+      <Link to="https://www.github.com/fodlu" target="_blank">
         GitHub
       </Link>
       <Link to="#" target="_blank">

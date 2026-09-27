@@ -1,4 +1,8 @@
-nav{
-    display: flex;
-    gap: 1.5rem;
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+a {
+  font-size: 1.25rem;
 }

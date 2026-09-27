@@ -16,20 +16,11 @@
   --Neutral-100: hsl(0, 0%, 93%);
   --Neutral-0: hsl(200, 60%, 99%);
 
-  --Red-400: hsl(3, 86%, 64%);
-  --Red-500: hsl(3, 71%, 56%);
-  --Red-700: hsl(3, 77%, 44%);
-
   --Dark-Gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
 
-  --chrome-Black: #0d0d0d;
+  --chrome-black: #0d0d0d;
   --digital-lilac: #d9b8ff;
-  --rich-black: #020d19;
   --obsidian: #0b1215;
-  --charcoal-gray: #171717;
-  --midnight-green: #0d1f1e;
-  --darkslate-gray: #0d1717;
-  --oil-black: #0c0c0c;
 }
 
 * {
@@ -60,7 +51,7 @@ main {
   font-size: 1rem;
   position: relative;
   margin-left: 20px;
-  color: var(--charcoal-gray);
+  color: var(--chrome-black);
   font-weight: 700;
 }
 
@@ -68,7 +59,7 @@ main {
   content: '';
   height: 3px;
   width: 10px;
-  background-color: var(--charcoal-gray);
+  background-color: var(--obsidian);
   position: absolute;
   top: 50%;
   left: -15px;
@@ -80,7 +71,7 @@ span,
 li,
 a,
 button {
-  font-size: 1.45rem;
+  font-size: 1rem;
 }
 
 /* Testimonial-page */

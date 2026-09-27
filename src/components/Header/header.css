@@ -3,7 +3,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  box-shadow: 0px 0px 5px var(--oil-black);
+  box-shadow: 0px 0px 5px var(--chrome-black);
   background-color: var(--digital-lilac);
   font-size: 1.5rem;
   position: sticky;
@@ -15,8 +15,8 @@ header {
       font-weight: 700;
 
       &.active {
-        border-bottom: 2px solid var(--oil-black);
-        color: var(--darkslate-gray);
+        border-bottom: 2px solid var(--chrome-black);
+        color: var(--chrome-black);
         transform: translateY(4px);
       }
     }
@@ -24,7 +24,7 @@ header {
 
   .logo {
     cursor: pointer;
-    background-color: var(--oil-black);
+    background-color: var(--chrome-black);
     color: var(--digital-lilac);
     font-family: cursive;
     width: 50px;
@@ -40,8 +40,8 @@ header {
     border-radius: 40px;
     padding: 10px 20px;
     border: none;
-    font-size: 1.5rem;
-    background-color: var(--charcoal-gray);
+    font-size: 1.25rem;
+    background-color: var(--chrome-gray);
     color: var(--digital-lilac);
   }
   /*

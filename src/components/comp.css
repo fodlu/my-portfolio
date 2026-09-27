@@ -3,11 +3,11 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  color: var(--oil-black);
+  color: var(--chrome-black);
   padding: 2rem 0;
 
   a {
-    color: var(--oil-black);
+    color: var(--chrome-black);
 
     &:hover {
       transform: scale(1.05);
@@ -21,7 +21,7 @@ footer {
   gap: 2rem;
 
   p {
-    color: var(--oil-black);
+    color: var(--obsidian);
     font-size: 1.5rem;
     gap: 0.25rem;
     line-height: 1;
@@ -29,7 +29,7 @@ footer {
     span {
       display: block;
       font-size: 1rem;
-      color: var(--oil-black);
+      color: var(--obsidian);
       text-align: left;
     }
   }

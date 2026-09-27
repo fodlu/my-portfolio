@@ -3,7 +3,7 @@
   & > h1,
   & > p {
     text-align: center;
-    color: var(--rich-black);
+    color: var(--obsidian);
     font-weight: 600;
   }
 }
@@ -22,7 +22,7 @@
 
     &:hover {
       transform: scale(1.001);
-      box-shadow: 3px 3px 3px black;
+      box-shadow: 0px 0px 5px black;
 
       transition: all 0.3s ease-in-out;
     }
@@ -30,7 +30,7 @@
     img {
       width: 100%;
       max-height: 450px;
-      aspect-ratio: 1/1;
+      /* aspect-ratio: 1/1; */
       border: 1px solid;
       border: none;
       border-top-left-radius: 20px;
@@ -47,6 +47,7 @@
       p {
         text-align: justify;
         font-weight: 500;
+        margin-bottom: 1rem;
       }
 
       .tech-stack {
@@ -64,10 +65,10 @@
         gap: 1rem;
 
         a {
-          color: var(--rich-black);
+          color: var(--chrome-black);
 
           &:visited {
-            color: var(--rich-black);
+            color: var(--chrome-black);
           }
         }
       }

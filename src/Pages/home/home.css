@@ -88,13 +88,13 @@
 }
 
 .tech-category {
-  background: var(--rich-black);
+  background: var(--chrome-black);
   padding: 25px;
   border-radius: 12px;
   color: var(--digital-lilac);
 
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
   }
 }
@@ -104,21 +104,21 @@
   gap: 1rem;
   margin-top: 15px;
   justify-content: center;
-  background: var(--rich-black);
+  background: var(--chrome-black);
 }
 .tech-tags span {
   background: var(--digital-lilac);
-  color: var(--rich-black);
+  color: var(--obsidian);
   padding: 8px 16px;
   border-radius: 20px;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .score {
   div {
     padding: 0 1rem;
-    border-right: 1px solid var(--oil-black);
+    border-right: 1px solid var(--chrome-black);
     padding-right: 2rem;
 
     &:last-child {
@@ -156,12 +156,13 @@
       align-items: center;
       gap: 0.5rem;
       width: max-content;
+      color: var(--chrome-black);
     }
 
     a:hover {
       transform: translateX(2px);
       text-decoration: none;
-      color: var(--oil-black);
+      color: var(--chrome-black);
     }
   }
 }
@@ -181,7 +182,7 @@
     gap: 2rem;
 
     button {
-      background-color: var(--oil-black);
+      background-color: var(--chrome-black);
       border: none;
       /* height: 40px; */
       padding: 1rem 2rem;

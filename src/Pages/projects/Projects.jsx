@@ -4,6 +4,20 @@ import './projects.css';
 export default function Projects() {
   const projects = [
     {
+      id: 0,
+      title: 'BookMe — Online Booking & Reservation Management System',
+      description: [
+        `A full 3-sided SaaS platform I built to solve real problem service business face: managing availability, clients, payments, and cash flow in one place.`,
+        `The Business owner platform to set up account, create and manage services with pricing, duration and desscriptions, set availabilities and off days, track earnings using stripe and integrate Google calendar`,
+        `The customer platform accessibility without account but email using the public business link, select one or more services, verify otp for secuirity and pay securely via stripe.`,
+        `The Admin platform controls platform overview (total usersm bookings, revenue and platform fees collection), user management, transaction monitoring, revenue analytics, and payout management.`,
+      ],
+      tech: ['React', 'Stripe', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'CRON', 'JWT', 'Nodemailer'],
+      image: '/images/BookMe.png',
+      liveLink: 'https://fullstack-ems-app.vercel.app/',
+      githubLink: 'https://github.com/fodlu/BookMe',
+    },
+    {
       id: 1,
       title: 'Employee Management System (EMS)',
       description:
@@ -12,6 +26,16 @@ export default function Projects() {
       image: '/images/EmploymentManagement.png',
       liveLink: 'https://fullstack-ems-app.vercel.app/',
       githubLink: 'https://github.com/fodlu/fullstackEMS',
+    },
+    {
+      id: 7,
+      title: 'Pollify – Real-Time Interactive Polling & Community Platform',
+      description:
+        'An interactive polling and community engagement web application featuring dual admin/user dashboards. Users can launch custom polls across multiple formats (Yes/No, multiple-choice text/images, rating scales, and open-ended queries), participate in dynamic voting, and engage in nested discussion threads. Includes robust moderation tools for administrative control.',
+      tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'WebSockets'],
+      image: '/images/polify.png',
+      liveLink: 'https://fullstack-ems-app.vercel.app/',
+      githubLink: 'https://github.com/fodlu/pollify',
     },
     {
       id: 2,

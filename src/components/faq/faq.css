@@ -16,12 +16,12 @@
     cursor: pointer;
     width: 60%;
     margin: 0 auto;
-    border: 1px solid var(--rich-black);
+    border: 1px solid var(--Neutral-900);
 
     .question {
       padding: 0.5rem 1rem;
       display: flex;
-      background-color: var(--rich-black);
+      background-color: var(--chrome-black);
       justify-content: space-between;
       color: var(--digital-lilac);
       transition: all 1s ease;
@@ -30,7 +30,15 @@
     .answer {
       background-color: var(--digital-lilac);
       padding: 0.5rem 1rem;
-      color: var(--rich-black);
+      color: var(--chrome-black);
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .faqs {
+    .faq {
+      width: 100%;
     }
   }
 }
