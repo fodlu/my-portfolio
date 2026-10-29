@@ -4,6 +4,16 @@ import './projects.css';
 export default function Projects() {
   const projects = [
     {
+      id: 2,
+      title: 'FreshMart — Full-Stack MERN E-Commerce & Admin Ecosystem',
+      description:
+        'Engineered FreshMart, a full-stack MERN e-commerce platform featuring dual applications (customer storefront and independent admin dashboard), secure email verification, Stripe payment processing, and granular product and order management.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Brevo', 'Cloudinary', 'CRON'],
+      image: '/images/grocery-store.png',
+      liveLink: 'https://grocery-delivery-jade.vercel.app/',
+      githubLink: 'https://github.com/fodlu/Grocery-delivery',
+    },
+    {
       id: 0,
       title: 'BookMe — Online Booking & Reservation Management System',
       description: [
@@ -86,16 +96,6 @@ export default function Projects() {
       image: '/images/Trackexpense.png',
       liveLink: 'https://trackexpenses-app.vercel.app/',
       githubLink: 'https://github.com/fodlu/trackexpense',
-    },
-    {
-      id: 2,
-      title: 'FreshMart — Full-Stack MERN E-Commerce & Admin Ecosystem',
-      description:
-        'Engineered FreshMart, a full-stack MERN e-commerce platform featuring dual applications (customer storefront and independent admin dashboard), secure email verification, Stripe payment processing, and granular product and order management.',
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Brevo', 'Cloudinary', 'CRON'],
-      image: '/images/grocery-store.png',
-      liveLink: 'https://grocery-delivery-jade.vercel.app/',
-      githubLink: 'https://github.com/fodlu/Grocery-delivery',
     },
   ];
 
