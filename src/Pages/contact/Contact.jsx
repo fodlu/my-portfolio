@@ -113,10 +113,10 @@ const Contact = () => {
 
           <h2>Connect Online</h2>
           <div className="social-links">
-            <a href="#" target="_blank">
+            <a href="www.linkedin.com/in/fadilulahi-musediq-a8ab21326" target="_blank">
               LinkedIn
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.github.com/fodlu" target="_blank">
               GitHub
             </a>
             <a href="#" target="_blank">

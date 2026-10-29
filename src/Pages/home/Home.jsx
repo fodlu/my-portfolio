@@ -39,7 +39,7 @@ export default function Home() {
         <div>
           <h2>About Me</h2>
           <p>
-            I'm a Full Stack Web Engineer based in Lagos with 4+ years experience building scalable web applicationa. I
+            I'm a Full Stack Web Engineer based in Lagos with 4+ years experience building scalable web applications. I
             focus on writing clean code that solves real business problems.
           </p>
           <Link to="/about">

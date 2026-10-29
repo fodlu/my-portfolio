@@ -1,6 +1,5 @@
 export default function ProjectCard({ item }) {
   const { image, title, liveLink, githubLink, description, tech } = item;
-  console.log(image);
   return (
     <div className="project-card">
       <img src={image} alt={title} />

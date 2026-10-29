@@ -38,7 +38,7 @@ export default function Projects() {
       githubLink: 'https://github.com/fodlu/pollify',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Enterprise Job Portal & Interview Hub',
       description:
         'A full-stack recruitment ecosystem connecting job seekers with recruiters. Features multi-role dashboards, company-specific interview prep modules, custom question banks, and live interview status tracking for streamlined talent acquisition.',
@@ -48,7 +48,7 @@ export default function Projects() {
       githubLink: 'https://github.com/fodlu/jobportal',
     },
     {
-      id: 3,
+      id: 4,
       title: 'PingUp — Social Networking & Real-Time Chat Platform',
       description:
         'A feature-rich social networking app supporting real-time messaging, ephemeral stories, media uploads, and community connections. Integrates secure third-party authentication and instant WebSocket communication across global user bases.',
@@ -58,7 +58,7 @@ export default function Projects() {
       githubLink: 'https://github.com/fodlu/pingup',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Quick Dine — Online Restaurant & Reservation Platform',
       description:
         'An end-to-end dining management and food ordering application. Provides granular role access for Site Admins, Restaurant Owners, and Diners to handle menu customization, table reservations, and seamless order fulfillment.',
@@ -68,7 +68,7 @@ export default function Projects() {
       githubLink: 'https://github.com/fodlu/quickdine',
     },
     {
-      id: 5,
+      id: 6,
       title: 'EstateHub — Multi-Role Real Estate & Property Marketplace',
       description:
         'A full-stack property marketplace connecting buyers, sellers, and agents. Features granular role-based access control (RBAC), real-time chat for buyer-agent price negotiations, and admin oversight modules to ensure transaction security and platform compliance.',
@@ -78,7 +78,7 @@ export default function Projects() {
       githubLink: 'https://github.com/fodlu/real-estate',
     },
     {
-      id: 6,
+      id: 7,
       title: 'ExpenseTracker — Financial Analytics & Budgeting Platform',
       description:
         'An intuitive personal finance application designed to analyze spending habits and track daily expenses. Features dynamic graphical visualizations for daily, weekly, and monthly trends alongside automated recurring schedule updates.',
@@ -86,6 +86,16 @@ export default function Projects() {
       image: '/images/Trackexpense.png',
       liveLink: 'https://trackexpenses-app.vercel.app/',
       githubLink: 'https://github.com/fodlu/trackexpense',
+    },
+    {
+      id: 2,
+      title: 'FreshMart — Full-Stack MERN E-Commerce & Admin Ecosystem',
+      description:
+        'Engineered FreshMart, a full-stack MERN e-commerce platform featuring dual applications (customer storefront and independent admin dashboard), secure email verification, Stripe payment processing, and granular product and order management.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe', 'Brevo', 'Cloudinary', 'CRON'],
+      image: '/images/grocery-store.png',
+      liveLink: 'https://grocery-delivery-jade.vercel.app/',
+      githubLink: 'https://github.com/fodlu/Grocery-delivery',
     },
   ];
 
